@@ -1,6 +1,6 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-08-04T14:54:04.658456+00:00",
+  "generated_at": "2026-08-04T15:03:54.766603+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
     "lead_time_for_changes_hours": 83.76027777777777,
