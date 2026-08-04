@@ -31,6 +31,7 @@ jobs:
       - name: Generate report
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONPATH: src
         run: |
           python -m dx_dashboard.cli \
             --owner "${{ github.event.inputs.owner || 'pallets' }}" \
