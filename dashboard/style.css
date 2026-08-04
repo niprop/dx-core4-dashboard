@@ -1,0 +1,138 @@
+:root {
+  --bg: #0b0d12;
+  --card: #151822;
+  --border: #262b3a;
+  --text: #e8eaf0;
+  --muted: #9aa0b4;
+  --elite: #3ecf8e;
+  --high: #7cc4ff;
+  --medium: #f5c451;
+  --low: #f5716c;
+  --unknown: #4a4f61;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  padding: 32px 24px 64px;
+}
+
+header {
+  max-width: 1100px;
+  margin: 0 auto 32px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 22px;
+}
+
+header p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.meta {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+
+.card h3 {
+  margin: 0 0 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.card .value {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 6px 0 4px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.badge.Elite { background: rgba(62,207,142,0.15); color: var(--elite); }
+.badge.High { background: rgba(124,196,255,0.15); color: var(--high); }
+.badge.Medium { background: rgba(245,196,81,0.15); color: var(--medium); }
+.badge.Low { background: rgba(245,113,108,0.15); color: var(--low); }
+.badge.unknown { background: rgba(74,79,97,0.3); color: var(--muted); }
+
+section.card h2 {
+  margin: 0 0 16px;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+th { color: var(--muted); font-weight: 500; }
+
+a { color: var(--high); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 760px) {
+  .two-col { grid-template-columns: 1fr; }
+}
+
+.note {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.empty {
+  color: var(--muted);
+  font-size: 14px;
+  padding: 40px;
+  text-align: center;
+}
