@@ -1,0 +1,71 @@
+{
+  "repo": "example-org/example-repo",
+  "generated_at": "2026-08-04T14:35:57.799326+00:00",
+  "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
+  "dora": {
+    "lead_time_for_changes_hours": 4.0,
+    "lead_time_rating": "Elite",
+    "deployment_frequency_per_week": 1.9649122807017545,
+    "deployment_frequency_rating": "High",
+    "change_failure_rate_pct": 33.3,
+    "change_failure_rate_rating": "Medium",
+    "mttr_hours": 25.0,
+    "mttr_rating": "Medium",
+    "sample_size": {
+      "merged_prs": 3,
+      "completed_workflow_runs": 3,
+      "incidents": 1
+    }
+  },
+  "core4": {
+    "speed": {
+      "median_cycle_time_hours": 4.0,
+      "pr_throughput_per_week": 2.947368421052632
+    },
+    "effectiveness": {
+      "deployment_frequency_per_week": 1.9649122807017545
+    },
+    "quality": {
+      "change_failure_rate_pct": 33.3,
+      "revert_rate_pct": 33.3
+    },
+    "impact": {
+      "pct_prs_linked_to_issue": 66.7,
+      "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
+    }
+  },
+  "ai_impact": {
+    "ai_assisted_pr_count": 1,
+    "non_ai_pr_count": 2,
+    "pct_prs_ai_assisted": 33.3,
+    "median_cycle_time_hours_ai_assisted": 4.0,
+    "median_cycle_time_hours_non_ai": 25.0,
+    "cycle_time_delta_pct": -84.0,
+    "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
+  },
+  "recent_prs": [
+    {
+      "number": 101,
+      "title": "feat: add retry logic",
+      "merged_at": "2026-06-01T14:00:00Z",
+      "created_at": "2026-06-01T10:00:00Z",
+      "html_url": "https://github.com/example/repo/pull/101"
+    },
+    {
+      "number": 100,
+      "title": "fix: null pointer on empty config",
+      "merged_at": "2026-05-30T09:00:00Z",
+      "created_at": "2026-05-28T09:00:00Z",
+      "html_url": "https://github.com/example/repo/pull/100"
+    },
+    {
+      "number": 99,
+      "title": "Revert \"feat: add retry logic\"",
+      "merged_at": "2026-05-25T11:00:00Z",
+      "created_at": "2026-05-25T09:00:00Z",
+      "html_url": "https://github.com/example/repo/pull/99"
+    }
+  ],
+  "_synthetic_demo_data": true,
+  "_note": "This file ships with the repo so the dashboard has something to render out of the box. It's generated from the fixtures in tests/test_integration.py, not a live GitHub repo -- the sandbox this project was built in can't reach api.github.com. Run the CLI yourself (or let the scheduled GitHub Action do it) to get a real report for a repo of your choice."
+}
