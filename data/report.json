@@ -1,0 +1,153 @@
+{
+  "repo": "pallets/click",
+  "generated_at": "2026-08-04T14:54:04.658456+00:00",
+  "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
+  "dora": {
+    "lead_time_for_changes_hours": 83.76027777777777,
+    "lead_time_rating": "High",
+    "deployment_frequency_per_week": 18.902071459886013,
+    "deployment_frequency_rating": "Elite",
+    "change_failure_rate_pct": 18.0,
+    "change_failure_rate_rating": "High",
+    "mttr_hours": 7743.6475,
+    "mttr_rating": "Low",
+    "sample_size": {
+      "merged_prs": 146,
+      "completed_workflow_runs": 89,
+      "incidents": 156
+    }
+  },
+  "core4": {
+    "speed": {
+      "median_cycle_time_hours": 83.76027777777777,
+      "pr_throughput_per_week": 2.377187605246134
+    },
+    "effectiveness": {
+      "deployment_frequency_per_week": 18.902071459886013
+    },
+    "quality": {
+      "change_failure_rate_pct": 18.0,
+      "revert_rate_pct": 0.7
+    },
+    "impact": {
+      "pct_prs_linked_to_issue": 42.5,
+      "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
+    }
+  },
+  "ai_impact": {
+    "ai_assisted_pr_count": 1,
+    "non_ai_pr_count": 145,
+    "pct_prs_ai_assisted": 0.7,
+    "median_cycle_time_hours_ai_assisted": 7838.011388888889,
+    "median_cycle_time_hours_non_ai": 81.54472222222222,
+    "cycle_time_delta_pct": 9511.9,
+    "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
+  },
+  "recent_prs": [
+    {
+      "number": 3637,
+      "title": "Add built-in PowerShell shell completion support",
+      "merged_at": "2026-07-16T23:56:43Z",
+      "created_at": "2026-06-26T10:33:27Z",
+      "html_url": "https://github.com/pallets/click/pull/3637"
+    },
+    {
+      "number": 3695,
+      "title": "Mark clearly functions private status. Deprecated Python 2 utilities.",
+      "merged_at": "2026-07-17T19:24:58Z",
+      "created_at": "2026-07-16T20:32:38Z",
+      "html_url": "https://github.com/pallets/click/pull/3695"
+    },
+    {
+      "number": 3641,
+      "title": "Streamline option flag management",
+      "merged_at": "2026-07-16T04:54:42Z",
+      "created_at": "2026-06-27T08:06:17Z",
+      "html_url": "https://github.com/pallets/click/pull/3641"
+    },
+    {
+      "number": 3256,
+      "title": "Show custom error message in prompt with `hide_input=True`",
+      "merged_at": "2026-05-14T05:01:10Z",
+      "created_at": "2026-03-10T17:11:51Z",
+      "html_url": "https://github.com/pallets/click/pull/3256"
+    },
+    {
+      "number": 3423,
+      "title": "Add missing space between option help text and deprecation label",
+      "merged_at": "2026-05-15T10:41:23Z",
+      "created_at": "2026-05-13T13:58:12Z",
+      "html_url": "https://github.com/pallets/click/pull/3423"
+    },
+    {
+      "number": 3431,
+      "title": "Document short option stacking behavior",
+      "merged_at": "2026-05-15T15:03:38Z",
+      "created_at": "2026-05-15T11:24:30Z",
+      "html_url": "https://github.com/pallets/click/pull/3431"
+    },
+    {
+      "number": 3393,
+      "title": "Cleanup documentation for `8.4.0`",
+      "merged_at": "2026-05-16T04:48:03Z",
+      "created_at": "2026-04-30T05:38:45Z",
+      "html_url": "https://github.com/pallets/click/pull/3393"
+    },
+    {
+      "number": 3404,
+      "title": "Dual-option value arbitration: `first` vs. `last` vs. `most explicit` policy",
+      "merged_at": "2026-05-16T04:44:49Z",
+      "created_at": "2026-05-04T14:52:14Z",
+      "html_url": "https://github.com/pallets/click/pull/3404"
+    },
+    {
+      "number": 3391,
+      "title": "Add capture mode to `CliRunner` and revert default `fileno` exposure",
+      "merged_at": "2026-05-16T04:57:46Z",
+      "created_at": "2026-04-29T10:28:06Z",
+      "html_url": "https://github.com/pallets/click/pull/3391"
+    },
+    {
+      "number": 3405,
+      "title": "`click.get_pager_file`: add tests (#1572 followup)",
+      "merged_at": "2026-05-16T15:50:46Z",
+      "created_at": "2026-05-04T19:33:28Z",
+      "html_url": "https://github.com/pallets/click/pull/3405"
+    },
+    {
+      "number": 3436,
+      "title": "Release 8.4.0",
+      "merged_at": "2026-05-17T05:15:42Z",
+      "created_at": "2026-05-16T16:47:35Z",
+      "html_url": "https://github.com/pallets/click/pull/3436"
+    },
+    {
+      "number": 3443,
+      "title": "Merge main into stable",
+      "merged_at": "2026-05-17T05:20:50Z",
+      "created_at": "2026-05-17T05:16:42Z",
+      "html_url": "https://github.com/pallets/click/pull/3443"
+    },
+    {
+      "number": 3447,
+      "title": "Remove index.rst and changes.rst!",
+      "merged_at": "2026-05-17T23:45:57Z",
+      "created_at": "2026-05-17T23:43:28Z",
+      "html_url": "https://github.com/pallets/click/pull/3447"
+    },
+    {
+      "number": 3678,
+      "title": "Fix parsing when a parameter is named `help`",
+      "merged_at": "2026-07-10T03:24:09Z",
+      "created_at": "2026-07-08T12:19:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3678"
+    },
+    {
+      "number": 3434,
+      "title": "Fix `HelpFormatter.write_usage` producing spurious characters",
+      "merged_at": "2026-05-16T15:53:40Z",
+      "created_at": "2026-05-16T06:20:23Z",
+      "html_url": "https://github.com/pallets/click/pull/3434"
+    }
+  ]
+}
