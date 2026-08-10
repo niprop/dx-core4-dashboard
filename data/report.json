@@ -1,153 +1,153 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-08-04T15:03:54.766603+00:00",
+  "generated_at": "2026-08-10T07:44:35.109652+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
-    "lead_time_for_changes_hours": 83.76027777777777,
-    "lead_time_rating": "High",
-    "deployment_frequency_per_week": 18.902071459886013,
+    "lead_time_for_changes_hours": 5.171944444444444,
+    "lead_time_rating": "Elite",
+    "deployment_frequency_per_week": 17.392681261634014,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 18.0,
+    "change_failure_rate_pct": 16.5,
     "change_failure_rate_rating": "High",
-    "mttr_hours": 7743.6475,
+    "mttr_hours": 7838.040277777778,
     "mttr_rating": "Low",
     "sample_size": {
-      "merged_prs": 146,
-      "completed_workflow_runs": 89,
-      "incidents": 156
+      "merged_prs": 364,
+      "completed_workflow_runs": 97,
+      "incidents": 55
     }
   },
   "core4": {
     "speed": {
-      "median_cycle_time_hours": 83.76027777777777,
-      "pr_throughput_per_week": 2.377187605246134
+      "median_cycle_time_hours": 5.171944444444444,
+      "pr_throughput_per_week": 1.1391320755658139
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 18.902071459886013
+      "deployment_frequency_per_week": 17.392681261634014
     },
     "quality": {
-      "change_failure_rate_pct": 18.0,
-      "revert_rate_pct": 0.7
+      "change_failure_rate_pct": 16.5,
+      "revert_rate_pct": 0.5
     },
     "impact": {
-      "pct_prs_linked_to_issue": 42.5,
+      "pct_prs_linked_to_issue": 44.8,
       "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
     }
   },
   "ai_impact": {
-    "ai_assisted_pr_count": 1,
-    "non_ai_pr_count": 145,
-    "pct_prs_ai_assisted": 0.7,
-    "median_cycle_time_hours_ai_assisted": 7838.011388888889,
-    "median_cycle_time_hours_non_ai": 81.54472222222222,
-    "cycle_time_delta_pct": 9511.9,
+    "ai_assisted_pr_count": 0,
+    "non_ai_pr_count": 364,
+    "pct_prs_ai_assisted": 0.0,
+    "median_cycle_time_hours_ai_assisted": null,
+    "median_cycle_time_hours_non_ai": 5.171944444444444,
+    "cycle_time_delta_pct": null,
     "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
   },
   "recent_prs": [
     {
-      "number": 3637,
-      "title": "Add built-in PowerShell shell completion support",
-      "merged_at": "2026-07-16T23:56:43Z",
-      "created_at": "2026-06-26T10:33:27Z",
-      "html_url": "https://github.com/pallets/click/pull/3637"
+      "number": 3728,
+      "title": "Sort help args to make them reproducible",
+      "merged_at": "2026-08-09T17:51:57Z",
+      "created_at": "2026-07-25T11:15:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3728"
     },
     {
-      "number": 3695,
-      "title": "Mark clearly functions private status. Deprecated Python 2 utilities.",
-      "merged_at": "2026-07-17T19:24:58Z",
-      "created_at": "2026-07-16T20:32:38Z",
-      "html_url": "https://github.com/pallets/click/pull/3695"
+      "number": 3715,
+      "title": "Parametrize deprecation tests and check targets",
+      "merged_at": "2026-07-22T22:29:11Z",
+      "created_at": "2026-07-22T18:50:38Z",
+      "html_url": "https://github.com/pallets/click/pull/3715"
     },
     {
-      "number": 3641,
-      "title": "Streamline option flag management",
-      "merged_at": "2026-07-16T04:54:42Z",
-      "created_at": "2026-06-27T08:06:17Z",
-      "html_url": "https://github.com/pallets/click/pull/3641"
+      "number": 3685,
+      "title": "Fix `sdist` include to ship `CHANGES.md` after changelog rename",
+      "merged_at": "2026-07-23T11:45:18Z",
+      "created_at": "2026-07-12T16:59:06Z",
+      "html_url": "https://github.com/pallets/click/pull/3685"
     },
     {
-      "number": 3256,
-      "title": "Show custom error message in prompt with `hide_input=True`",
-      "merged_at": "2026-05-14T05:01:10Z",
-      "created_at": "2026-03-10T17:11:51Z",
-      "html_url": "https://github.com/pallets/click/pull/3256"
+      "number": 3534,
+      "title": "Support incremental output in the pager",
+      "merged_at": "2026-05-30T20:23:11Z",
+      "created_at": "2026-05-29T14:49:22Z",
+      "html_url": "https://github.com/pallets/click/pull/3534"
     },
     {
-      "number": 3423,
-      "title": "Add missing space between option help text and deprecation label",
-      "merged_at": "2026-05-15T10:41:23Z",
-      "created_at": "2026-05-13T13:58:12Z",
-      "html_url": "https://github.com/pallets/click/pull/3423"
+      "number": 3526,
+      "title": "Accept ZFS error-message for non-UTF-8 names",
+      "merged_at": "2026-05-29T03:42:14Z",
+      "created_at": "2026-05-28T12:28:24Z",
+      "html_url": "https://github.com/pallets/click/pull/3526"
     },
     {
-      "number": 3431,
-      "title": "Document short option stacking behavior",
-      "merged_at": "2026-05-15T15:03:38Z",
-      "created_at": "2026-05-15T11:24:30Z",
-      "html_url": "https://github.com/pallets/click/pull/3431"
+      "number": 3493,
+      "title": "Handle empty bytes in echo",
+      "merged_at": "2026-05-21T22:46:00Z",
+      "created_at": "2026-05-21T10:18:42Z",
+      "html_url": "https://github.com/pallets/click/pull/3493"
     },
     {
-      "number": 3393,
-      "title": "Cleanup documentation for `8.4.0`",
-      "merged_at": "2026-05-16T04:48:03Z",
-      "created_at": "2026-04-30T05:38:45Z",
-      "html_url": "https://github.com/pallets/click/pull/3393"
+      "number": 3446,
+      "title": "Fix dev version 8.4.1",
+      "merged_at": "2026-05-17T20:20:19Z",
+      "created_at": "2026-05-17T20:19:24Z",
+      "html_url": "https://github.com/pallets/click/pull/3446"
     },
     {
-      "number": 3404,
-      "title": "Dual-option value arbitration: `first` vs. `last` vs. `most explicit` policy",
-      "merged_at": "2026-05-16T04:44:49Z",
-      "created_at": "2026-05-04T14:52:14Z",
-      "html_url": "https://github.com/pallets/click/pull/3404"
+      "number": 3444,
+      "title": "Bump version to 8.4.dev",
+      "merged_at": "2026-05-17T05:32:58Z",
+      "created_at": "2026-05-17T05:31:05Z",
+      "html_url": "https://github.com/pallets/click/pull/3444"
     },
     {
-      "number": 3391,
-      "title": "Add capture mode to `CliRunner` and revert default `fileno` exposure",
-      "merged_at": "2026-05-16T04:57:46Z",
-      "created_at": "2026-04-29T10:28:06Z",
-      "html_url": "https://github.com/pallets/click/pull/3391"
+      "number": 3373,
+      "title": "add codespell pre-commit hook",
+      "merged_at": "2026-04-22T19:07:30Z",
+      "created_at": "2026-04-22T19:04:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3373"
     },
     {
-      "number": 3405,
-      "title": "`click.get_pager_file`: add tests (#1572 followup)",
-      "merged_at": "2026-05-16T15:50:46Z",
-      "created_at": "2026-05-04T19:33:28Z",
-      "html_url": "https://github.com/pallets/click/pull/3405"
+      "number": 3363,
+      "title": "Auto-detect `type=UNPROCESSED` when `flag_value` has non-basic types",
+      "merged_at": "2026-04-29T06:47:36Z",
+      "created_at": "2026-04-21T11:02:48Z",
+      "html_url": "https://github.com/pallets/click/pull/3363"
     },
     {
-      "number": 3436,
-      "title": "Release 8.4.0",
-      "merged_at": "2026-05-17T05:15:42Z",
-      "created_at": "2026-05-16T16:47:35Z",
-      "html_url": "https://github.com/pallets/click/pull/3436"
+      "number": 3301,
+      "title": "Change publish to werkzeug latest.",
+      "merged_at": "2026-04-03T06:10:31Z",
+      "created_at": "2026-04-03T06:08:58Z",
+      "html_url": "https://github.com/pallets/click/pull/3301"
     },
     {
-      "number": 3443,
-      "title": "Merge main into stable",
-      "merged_at": "2026-05-17T05:20:50Z",
-      "created_at": "2026-05-17T05:16:42Z",
-      "html_url": "https://github.com/pallets/click/pull/3443"
+      "number": 3266,
+      "title": "Update publish workflows",
+      "merged_at": "2026-03-15T05:52:59Z",
+      "created_at": "2026-03-15T05:51:24Z",
+      "html_url": "https://github.com/pallets/click/pull/3266"
     },
     {
-      "number": 3447,
-      "title": "Remove index.rst and changes.rst!",
-      "merged_at": "2026-05-17T23:45:57Z",
-      "created_at": "2026-05-17T23:43:28Z",
-      "html_url": "https://github.com/pallets/click/pull/3447"
+      "number": 3171,
+      "title": "Move Complex document page from reST to MyST",
+      "merged_at": "2025-12-24T22:18:30Z",
+      "created_at": "2025-12-20T05:01:03Z",
+      "html_url": "https://github.com/pallets/click/pull/3171"
     },
     {
-      "number": 3678,
-      "title": "Fix parsing when a parameter is named `help`",
-      "merged_at": "2026-07-10T03:24:09Z",
-      "created_at": "2026-07-08T12:19:10Z",
-      "html_url": "https://github.com/pallets/click/pull/3678"
+      "number": 3166,
+      "title": "Document show_envvar in Help Pages",
+      "merged_at": "2025-12-10T05:09:55Z",
+      "created_at": "2025-12-09T22:50:15Z",
+      "html_url": "https://github.com/pallets/click/pull/3166"
     },
     {
-      "number": 3434,
-      "title": "Fix `HelpFormatter.write_usage` producing spurious characters",
-      "merged_at": "2026-05-16T15:53:40Z",
-      "created_at": "2026-05-16T06:20:23Z",
-      "html_url": "https://github.com/pallets/click/pull/3434"
+      "number": 3152,
+      "title": "Fix handling of options which set both is_flag=False and flag_value=...",
+      "merged_at": "2025-11-20T03:49:38Z",
+      "created_at": "2025-11-19T21:12:06Z",
+      "html_url": "https://github.com/pallets/click/pull/3152"
     }
   ]
 }
