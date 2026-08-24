@@ -1,49 +1,105 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-08-17T06:57:44.604292+00:00",
+  "generated_at": "2026-08-24T07:00:49.973776+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
-    "lead_time_for_changes_hours": 6.3277777777777775,
+    "lead_time_for_changes_hours": 7.11125,
     "lead_time_rating": "Elite",
-    "deployment_frequency_per_week": 19.266062020021756,
+    "deployment_frequency_per_week": 20.654054527423476,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 8.3,
+    "change_failure_rate_pct": 3.8,
     "change_failure_rate_rating": "Elite",
     "mttr_hours": 7952.810555555556,
     "mttr_rating": "Low",
     "sample_size": {
-      "merged_prs": 355,
-      "completed_workflow_runs": 96,
+      "merged_prs": 346,
+      "completed_workflow_runs": 105,
       "incidents": 54
     }
   },
   "core4": {
     "speed": {
-      "median_cycle_time_hours": 6.3277777777777775,
-      "pr_throughput_per_week": 1.1236065778314606
+      "median_cycle_time_hours": 7.11125,
+      "pr_throughput_per_week": 1.1319449637328947
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 19.266062020021756
+      "deployment_frequency_per_week": 20.654054527423476
     },
     "quality": {
-      "change_failure_rate_pct": 8.3,
+      "change_failure_rate_pct": 3.8,
       "revert_rate_pct": 0.6
     },
     "impact": {
-      "pct_prs_linked_to_issue": 45.4,
+      "pct_prs_linked_to_issue": 47.1,
       "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
     }
   },
   "ai_impact": {
     "ai_assisted_pr_count": 0,
-    "non_ai_pr_count": 355,
+    "non_ai_pr_count": 346,
     "pct_prs_ai_assisted": 0.0,
     "median_cycle_time_hours_ai_assisted": null,
-    "median_cycle_time_hours_non_ai": 6.3277777777777775,
+    "median_cycle_time_hours_non_ai": 7.11125,
     "cycle_time_delta_pct": null,
     "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
   },
   "recent_prs": [
+    {
+      "number": 3728,
+      "title": "Sort help args to make them reproducible",
+      "merged_at": "2026-08-09T17:51:57Z",
+      "created_at": "2026-07-25T11:15:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3728"
+    },
+    {
+      "number": 1572,
+      "title": "Add file-like pager: `click.get_pager_file()`",
+      "merged_at": "2026-04-29T23:33:44Z",
+      "created_at": "2020-06-02T02:12:53Z",
+      "html_url": "https://github.com/pallets/click/pull/1572"
+    },
+    {
+      "number": 3778,
+      "title": "Add FAQ entry about `UnicodeEncodeError` on Windows",
+      "merged_at": "2026-08-20T16:12:11Z",
+      "created_at": "2026-08-19T04:44:52Z",
+      "html_url": "https://github.com/pallets/click/pull/3778"
+    },
+    {
+      "number": 3781,
+      "title": "Add support of `pathlib.Path` to `edit`",
+      "merged_at": "2026-08-20T02:50:20Z",
+      "created_at": "2026-08-19T06:10:23Z",
+      "html_url": "https://github.com/pallets/click/pull/3781"
+    },
+    {
+      "number": 3777,
+      "title": "Forward all user's parameters set in `PAGER` and improve flag detection",
+      "merged_at": "2026-08-19T15:20:27Z",
+      "created_at": "2026-08-18T08:12:35Z",
+      "html_url": "https://github.com/pallets/click/pull/3777"
+    },
+    {
+      "number": 2630,
+      "title": "Specialize `progressbar(length=...)` as `ProgressBar[int]`",
+      "merged_at": "2024-11-08T23:57:43Z",
+      "created_at": "2023-11-07T22:05:54Z",
+      "html_url": "https://github.com/pallets/click/pull/2630"
+    },
+    {
+      "number": 3776,
+      "title": "Resolve the pager command once, in `_pager_contextmanager`",
+      "merged_at": "2026-08-18T16:24:13Z",
+      "created_at": "2026-08-18T07:19:56Z",
+      "html_url": "https://github.com/pallets/click/pull/3776"
+    },
+    {
+      "number": 3767,
+      "title": "Refactor pager stream handling",
+      "merged_at": "2026-08-18T05:38:45Z",
+      "created_at": "2026-08-15T06:19:58Z",
+      "html_url": "https://github.com/pallets/click/pull/3767"
+    },
     {
       "number": 3764,
       "title": "Fix error reporting on Windows when an error is raised in the pager ",
@@ -73,20 +129,6 @@
       "html_url": "https://github.com/pallets/click/pull/3739"
     },
     {
-      "number": 1572,
-      "title": "Add file-like pager: `click.get_pager_file()`",
-      "merged_at": "2026-04-29T23:33:44Z",
-      "created_at": "2020-06-02T02:12:53Z",
-      "html_url": "https://github.com/pallets/click/pull/1572"
-    },
-    {
-      "number": 3728,
-      "title": "Sort help args to make them reproducible",
-      "merged_at": "2026-08-09T17:51:57Z",
-      "created_at": "2026-07-25T11:15:10Z",
-      "html_url": "https://github.com/pallets/click/pull/3728"
-    },
-    {
       "number": 3715,
       "title": "Parametrize deprecation tests and check targets",
       "merged_at": "2026-07-22T22:29:11Z",
@@ -106,48 +148,6 @@
       "merged_at": "2026-05-30T20:23:11Z",
       "created_at": "2026-05-29T14:49:22Z",
       "html_url": "https://github.com/pallets/click/pull/3534"
-    },
-    {
-      "number": 3526,
-      "title": "Accept ZFS error-message for non-UTF-8 names",
-      "merged_at": "2026-05-29T03:42:14Z",
-      "created_at": "2026-05-28T12:28:24Z",
-      "html_url": "https://github.com/pallets/click/pull/3526"
-    },
-    {
-      "number": 3493,
-      "title": "Handle empty bytes in echo",
-      "merged_at": "2026-05-21T22:46:00Z",
-      "created_at": "2026-05-21T10:18:42Z",
-      "html_url": "https://github.com/pallets/click/pull/3493"
-    },
-    {
-      "number": 3446,
-      "title": "Fix dev version 8.4.1",
-      "merged_at": "2026-05-17T20:20:19Z",
-      "created_at": "2026-05-17T20:19:24Z",
-      "html_url": "https://github.com/pallets/click/pull/3446"
-    },
-    {
-      "number": 3444,
-      "title": "Bump version to 8.4.dev",
-      "merged_at": "2026-05-17T05:32:58Z",
-      "created_at": "2026-05-17T05:31:05Z",
-      "html_url": "https://github.com/pallets/click/pull/3444"
-    },
-    {
-      "number": 3373,
-      "title": "add codespell pre-commit hook",
-      "merged_at": "2026-04-22T19:07:30Z",
-      "created_at": "2026-04-22T19:04:10Z",
-      "html_url": "https://github.com/pallets/click/pull/3373"
-    },
-    {
-      "number": 3363,
-      "title": "Auto-detect `type=UNPROCESSED` when `flag_value` has non-basic types",
-      "merged_at": "2026-04-29T06:47:36Z",
-      "created_at": "2026-04-21T11:02:48Z",
-      "html_url": "https://github.com/pallets/click/pull/3363"
     }
   ]
 }
