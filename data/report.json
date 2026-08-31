@@ -1,55 +1,111 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-08-24T07:00:49.973776+00:00",
+  "generated_at": "2026-08-31T12:58:45.092605+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
-    "lead_time_for_changes_hours": 7.11125,
+    "lead_time_for_changes_hours": 10.491111111111111,
     "lead_time_rating": "Elite",
-    "deployment_frequency_per_week": 20.654054527423476,
+    "deployment_frequency_per_week": 21.538601750846183,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 3.8,
+    "change_failure_rate_pct": 0.0,
     "change_failure_rate_rating": "Elite",
     "mttr_hours": 7952.810555555556,
     "mttr_rating": "Low",
     "sample_size": {
-      "merged_prs": 346,
-      "completed_workflow_runs": 105,
+      "merged_prs": 333,
+      "completed_workflow_runs": 93,
       "incidents": 54
     }
   },
   "core4": {
     "speed": {
-      "median_cycle_time_hours": 7.11125,
-      "pr_throughput_per_week": 1.1319449637328947
+      "median_cycle_time_hours": 10.491111111111111,
+      "pr_throughput_per_week": 1.1277087629899125
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 20.654054527423476
+      "deployment_frequency_per_week": 21.538601750846183
     },
     "quality": {
-      "change_failure_rate_pct": 3.8,
-      "revert_rate_pct": 0.6
+      "change_failure_rate_pct": 0.0,
+      "revert_rate_pct": 0.3
     },
     "impact": {
-      "pct_prs_linked_to_issue": 47.1,
+      "pct_prs_linked_to_issue": 48.3,
       "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
     }
   },
   "ai_impact": {
     "ai_assisted_pr_count": 0,
-    "non_ai_pr_count": 346,
+    "non_ai_pr_count": 333,
     "pct_prs_ai_assisted": 0.0,
     "median_cycle_time_hours_ai_assisted": null,
-    "median_cycle_time_hours_non_ai": 7.11125,
+    "median_cycle_time_hours_non_ai": 10.491111111111111,
     "cycle_time_delta_pct": null,
     "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
   },
   "recent_prs": [
     {
-      "number": 3728,
-      "title": "Sort help args to make them reproducible",
-      "merged_at": "2026-08-09T17:51:57Z",
-      "created_at": "2026-07-25T11:15:10Z",
-      "html_url": "https://github.com/pallets/click/pull/3728"
+      "number": 3805,
+      "title": "Fix `copy`, `deepcopy` and `pickle` of `Sentinel` members",
+      "merged_at": "2026-08-29T15:12:36Z",
+      "created_at": "2026-08-28T21:43:45Z",
+      "html_url": "https://github.com/pallets/click/pull/3805"
+    },
+    {
+      "number": 3793,
+      "title": "Add `shtab` to third-party contrib list",
+      "merged_at": "2026-08-30T09:09:20Z",
+      "created_at": "2026-08-24T17:25:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3793"
+    },
+    {
+      "number": 3769,
+      "title": "Settles progress bar on its final position",
+      "merged_at": "2026-08-15T17:56:58Z",
+      "created_at": "2026-08-15T07:12:12Z",
+      "html_url": "https://github.com/pallets/click/pull/3769"
+    },
+    {
+      "number": 3780,
+      "title": "Add FAQ entry about `edit()` returning immediately",
+      "merged_at": "2026-08-29T04:45:56Z",
+      "created_at": "2026-08-19T05:38:02Z",
+      "html_url": "https://github.com/pallets/click/pull/3780"
+    },
+    {
+      "number": 3739,
+      "title": "Changed `tempfile.NamedTemporaryFile` mode to `w`",
+      "merged_at": "2026-08-14T18:51:52Z",
+      "created_at": "2026-07-31T16:15:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3739"
+    },
+    {
+      "number": 3801,
+      "title": "Start 8.5.1.",
+      "merged_at": "2026-08-27T04:19:35Z",
+      "created_at": "2026-08-27T04:17:35Z",
+      "html_url": "https://github.com/pallets/click/pull/3801"
+    },
+    {
+      "number": 3800,
+      "title": "Merge main into stable",
+      "merged_at": "2026-08-27T04:07:04Z",
+      "created_at": "2026-08-27T04:05:38Z",
+      "html_url": "https://github.com/pallets/click/pull/3800"
+    },
+    {
+      "number": 2630,
+      "title": "Specialize `progressbar(length=...)` as `ProgressBar[int]`",
+      "merged_at": "2024-11-08T23:57:43Z",
+      "created_at": "2023-11-07T22:05:54Z",
+      "html_url": "https://github.com/pallets/click/pull/2630"
+    },
+    {
+      "number": 3787,
+      "title": "Release version 8.5.0",
+      "merged_at": "2026-08-25T01:48:49Z",
+      "created_at": "2026-08-22T04:32:35Z",
+      "html_url": "https://github.com/pallets/click/pull/3787"
     },
     {
       "number": 1572,
@@ -57,6 +113,13 @@
       "merged_at": "2026-04-29T23:33:44Z",
       "created_at": "2020-06-02T02:12:53Z",
       "html_url": "https://github.com/pallets/click/pull/1572"
+    },
+    {
+      "number": 3728,
+      "title": "Sort help args to make them reproducible",
+      "merged_at": "2026-08-09T17:51:57Z",
+      "created_at": "2026-07-25T11:15:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3728"
     },
     {
       "number": 3778,
@@ -80,74 +143,11 @@
       "html_url": "https://github.com/pallets/click/pull/3777"
     },
     {
-      "number": 2630,
-      "title": "Specialize `progressbar(length=...)` as `ProgressBar[int]`",
-      "merged_at": "2024-11-08T23:57:43Z",
-      "created_at": "2023-11-07T22:05:54Z",
-      "html_url": "https://github.com/pallets/click/pull/2630"
-    },
-    {
       "number": 3776,
       "title": "Resolve the pager command once, in `_pager_contextmanager`",
       "merged_at": "2026-08-18T16:24:13Z",
       "created_at": "2026-08-18T07:19:56Z",
       "html_url": "https://github.com/pallets/click/pull/3776"
-    },
-    {
-      "number": 3767,
-      "title": "Refactor pager stream handling",
-      "merged_at": "2026-08-18T05:38:45Z",
-      "created_at": "2026-08-15T06:19:58Z",
-      "html_url": "https://github.com/pallets/click/pull/3767"
-    },
-    {
-      "number": 3764,
-      "title": "Fix error reporting on Windows when an error is raised in the pager ",
-      "merged_at": "2026-08-16T23:40:03Z",
-      "created_at": "2026-08-13T09:43:56Z",
-      "html_url": "https://github.com/pallets/click/pull/3764"
-    },
-    {
-      "number": 3768,
-      "title": "Run Flask's test suite in the nightly workflow",
-      "merged_at": "2026-08-16T23:43:41Z",
-      "created_at": "2026-08-15T06:56:03Z",
-      "html_url": "https://github.com/pallets/click/pull/3768"
-    },
-    {
-      "number": 3769,
-      "title": "Settles progress bar on its final position",
-      "merged_at": "2026-08-15T17:56:58Z",
-      "created_at": "2026-08-15T07:12:12Z",
-      "html_url": "https://github.com/pallets/click/pull/3769"
-    },
-    {
-      "number": 3739,
-      "title": "Changed `tempfile.NamedTemporaryFile` mode to `w`",
-      "merged_at": "2026-08-14T18:51:52Z",
-      "created_at": "2026-07-31T16:15:10Z",
-      "html_url": "https://github.com/pallets/click/pull/3739"
-    },
-    {
-      "number": 3715,
-      "title": "Parametrize deprecation tests and check targets",
-      "merged_at": "2026-07-22T22:29:11Z",
-      "created_at": "2026-07-22T18:50:38Z",
-      "html_url": "https://github.com/pallets/click/pull/3715"
-    },
-    {
-      "number": 3685,
-      "title": "Fix `sdist` include to ship `CHANGES.md` after changelog rename",
-      "merged_at": "2026-07-23T11:45:18Z",
-      "created_at": "2026-07-12T16:59:06Z",
-      "html_url": "https://github.com/pallets/click/pull/3685"
-    },
-    {
-      "number": 3534,
-      "title": "Support incremental output in the pager",
-      "merged_at": "2026-05-30T20:23:11Z",
-      "created_at": "2026-05-29T14:49:22Z",
-      "html_url": "https://github.com/pallets/click/pull/3534"
     }
   ]
 }
