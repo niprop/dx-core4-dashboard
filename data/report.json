@@ -1,42 +1,42 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-09-07T11:50:23.859204+00:00",
+  "generated_at": "2026-09-14T12:05:29.606232+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
     "lead_time_for_changes_hours": 15.377222222222223,
     "lead_time_rating": "Elite",
-    "deployment_frequency_per_week": 23.1701613041564,
+    "deployment_frequency_per_week": 18.735962742860682,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 2.9,
+    "change_failure_rate_pct": 3.6,
     "change_failure_rate_rating": "Elite",
     "mttr_hours": 7952.810555555556,
     "mttr_rating": "Low",
     "sample_size": {
-      "merged_prs": 313,
-      "completed_workflow_runs": 69,
+      "merged_prs": 305,
+      "completed_workflow_runs": 56,
       "incidents": 54
     }
   },
   "core4": {
     "speed": {
       "median_cycle_time_hours": 15.377222222222223,
-      "pr_throughput_per_week": 0.5327913494560161
+      "pr_throughput_per_week": 0.5184114822679969
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 23.1701613041564
+      "deployment_frequency_per_week": 18.735962742860682
     },
     "quality": {
-      "change_failure_rate_pct": 2.9,
-      "revert_rate_pct": 0.3
+      "change_failure_rate_pct": 3.6,
+      "revert_rate_pct": 0.0
     },
     "impact": {
-      "pct_prs_linked_to_issue": 48.6,
+      "pct_prs_linked_to_issue": 47.5,
       "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
     }
   },
   "ai_impact": {
     "ai_assisted_pr_count": 0,
-    "non_ai_pr_count": 313,
+    "non_ai_pr_count": 305,
     "pct_prs_ai_assisted": 0.0,
     "median_cycle_time_hours_ai_assisted": null,
     "median_cycle_time_hours_non_ai": 15.377222222222223,
@@ -45,11 +45,60 @@
   },
   "recent_prs": [
     {
+      "number": 3780,
+      "title": "Add FAQ entry about `edit()` returning immediately",
+      "merged_at": "2026-08-29T04:45:56Z",
+      "created_at": "2026-08-19T05:38:02Z",
+      "html_url": "https://github.com/pallets/click/pull/3780"
+    },
+    {
+      "number": 3865,
+      "title": "Fix short help abbreviation",
+      "merged_at": "2026-09-12T02:35:08Z",
+      "created_at": "2026-09-11T06:25:50Z",
+      "html_url": "https://github.com/pallets/click/pull/3865"
+    },
+    {
       "number": 3851,
       "title": "Stable",
       "merged_at": "2026-09-06T01:28:42Z",
       "created_at": "2026-09-06T01:24:59Z",
       "html_url": "https://github.com/pallets/click/pull/3851"
+    },
+    {
+      "number": 3861,
+      "title": "Move common `help` argument from `Option` and `Argument` to `Parameter`",
+      "merged_at": "2026-09-10T19:29:50Z",
+      "created_at": "2026-09-10T08:59:16Z",
+      "html_url": "https://github.com/pallets/click/pull/3861"
+    },
+    {
+      "number": 3800,
+      "title": "Merge main into stable",
+      "merged_at": "2026-08-27T04:07:04Z",
+      "created_at": "2026-08-27T04:05:38Z",
+      "html_url": "https://github.com/pallets/click/pull/3800"
+    },
+    {
+      "number": 3801,
+      "title": "Start 8.5.1.",
+      "merged_at": "2026-08-27T04:19:35Z",
+      "created_at": "2026-08-27T04:17:35Z",
+      "html_url": "https://github.com/pallets/click/pull/3801"
+    },
+    {
+      "number": 3858,
+      "title": "Make `click.Path` generic on `path_type`",
+      "merged_at": "2026-09-08T19:48:10Z",
+      "created_at": "2026-09-08T10:36:02Z",
+      "html_url": "https://github.com/pallets/click/pull/3858"
+    },
+    {
+      "number": 3787,
+      "title": "Release version 8.5.0",
+      "merged_at": "2026-08-25T01:48:49Z",
+      "created_at": "2026-08-22T04:32:35Z",
+      "html_url": "https://github.com/pallets/click/pull/3787"
     },
     {
       "number": 3850,
@@ -99,55 +148,6 @@
       "merged_at": "2026-09-02T13:10:04Z",
       "created_at": "2026-09-02T07:29:18Z",
       "html_url": "https://github.com/pallets/click/pull/3829"
-    },
-    {
-      "number": 3820,
-      "title": "Document calling a command as a regular function",
-      "merged_at": "2026-09-02T00:20:14Z",
-      "created_at": "2026-08-31T21:06:24Z",
-      "html_url": "https://github.com/pallets/click/pull/3820"
-    },
-    {
-      "number": 3767,
-      "title": "Refactor pager stream handling",
-      "merged_at": "2026-08-18T05:38:45Z",
-      "created_at": "2026-08-15T06:19:58Z",
-      "html_url": "https://github.com/pallets/click/pull/3767"
-    },
-    {
-      "number": 3826,
-      "title": "Add FAQ entry about tab completion in prompts",
-      "merged_at": "2026-09-01T21:32:54Z",
-      "created_at": "2026-09-01T10:29:55Z",
-      "html_url": "https://github.com/pallets/click/pull/3826"
-    },
-    {
-      "number": 3808,
-      "title": "Document type auto-conversion and test `set` and `frozenset`",
-      "merged_at": "2026-09-01T18:21:58Z",
-      "created_at": "2026-08-29T10:30:28Z",
-      "html_url": "https://github.com/pallets/click/pull/3808"
-    },
-    {
-      "number": 3819,
-      "title": "Document completion of path in shells",
-      "merged_at": "2026-08-31T23:39:08Z",
-      "created_at": "2026-08-31T20:01:49Z",
-      "html_url": "https://github.com/pallets/click/pull/3819"
-    },
-    {
-      "number": 3818,
-      "title": "Fix race condition on `KeyboardInterrupt` in `Command.main()`",
-      "merged_at": "2026-08-31T23:42:24Z",
-      "created_at": "2026-08-31T15:12:47Z",
-      "html_url": "https://github.com/pallets/click/pull/3818"
-    },
-    {
-      "number": 3768,
-      "title": "Run Flask's test suite in the nightly workflow",
-      "merged_at": "2026-08-16T23:43:41Z",
-      "created_at": "2026-08-15T06:56:03Z",
-      "html_url": "https://github.com/pallets/click/pull/3768"
     }
   ]
 }
