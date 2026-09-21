@@ -1,49 +1,126 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-09-14T12:05:29.606232+00:00",
+  "generated_at": "2026-09-21T12:15:08.001804+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
-    "lead_time_for_changes_hours": 15.377222222222223,
+    "lead_time_for_changes_hours": 15.814027777777778,
     "lead_time_rating": "Elite",
-    "deployment_frequency_per_week": 18.735962742860682,
+    "deployment_frequency_per_week": 16.038193618982177,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 3.6,
+    "change_failure_rate_pct": 3.4,
     "change_failure_rate_rating": "Elite",
-    "mttr_hours": 7952.810555555556,
+    "mttr_hours": 8067.580833333333,
     "mttr_rating": "Low",
     "sample_size": {
-      "merged_prs": 305,
-      "completed_workflow_runs": 56,
-      "incidents": 54
+      "merged_prs": 300,
+      "completed_workflow_runs": 59,
+      "incidents": 53
     }
   },
   "core4": {
     "speed": {
-      "median_cycle_time_hours": 15.377222222222223,
-      "pr_throughput_per_week": 0.5184114822679969
+      "median_cycle_time_hours": 15.814027777777778,
+      "pr_throughput_per_week": 0.5099129333783576
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 18.735962742860682
+      "deployment_frequency_per_week": 16.038193618982177
     },
     "quality": {
-      "change_failure_rate_pct": 3.6,
+      "change_failure_rate_pct": 3.4,
       "revert_rate_pct": 0.0
     },
     "impact": {
-      "pct_prs_linked_to_issue": 47.5,
+      "pct_prs_linked_to_issue": 47.0,
       "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
     }
   },
   "ai_impact": {
     "ai_assisted_pr_count": 0,
-    "non_ai_pr_count": 305,
+    "non_ai_pr_count": 300,
     "pct_prs_ai_assisted": 0.0,
     "median_cycle_time_hours_ai_assisted": null,
-    "median_cycle_time_hours_non_ai": 15.377222222222223,
+    "median_cycle_time_hours_non_ai": 15.814027777777778,
     "cycle_time_delta_pct": null,
     "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
   },
   "recent_prs": [
+    {
+      "number": 3820,
+      "title": "Document calling a command as a regular function",
+      "merged_at": "2026-09-02T00:20:14Z",
+      "created_at": "2026-08-31T21:06:24Z",
+      "html_url": "https://github.com/pallets/click/pull/3820"
+    },
+    {
+      "number": 3829,
+      "title": "Add missing a reference for Windows and use the `kbd` role",
+      "merged_at": "2026-09-02T13:10:04Z",
+      "created_at": "2026-09-02T07:29:18Z",
+      "html_url": "https://github.com/pallets/click/pull/3829"
+    },
+    {
+      "number": 3821,
+      "title": "Add `Option.get_help_spec` to extract the help's left part of an hidden option",
+      "merged_at": "2026-09-02T13:01:39Z",
+      "created_at": "2026-08-31T23:01:32Z",
+      "html_url": "https://github.com/pallets/click/pull/3821"
+    },
+    {
+      "number": 3858,
+      "title": "Make `click.Path` generic on `path_type`",
+      "merged_at": "2026-09-08T19:48:10Z",
+      "created_at": "2026-09-08T10:36:02Z",
+      "html_url": "https://github.com/pallets/click/pull/3858"
+    },
+    {
+      "number": 3818,
+      "title": "Fix race condition on `KeyboardInterrupt` in `Command.main()`",
+      "merged_at": "2026-08-31T23:42:24Z",
+      "created_at": "2026-08-31T15:12:47Z",
+      "html_url": "https://github.com/pallets/click/pull/3818"
+    },
+    {
+      "number": 3819,
+      "title": "Document completion of path in shells",
+      "merged_at": "2026-08-31T23:39:08Z",
+      "created_at": "2026-08-31T20:01:49Z",
+      "html_url": "https://github.com/pallets/click/pull/3819"
+    },
+    {
+      "number": 3808,
+      "title": "Document type auto-conversion and test `set` and `frozenset`",
+      "merged_at": "2026-09-01T18:21:58Z",
+      "created_at": "2026-08-29T10:30:28Z",
+      "html_url": "https://github.com/pallets/click/pull/3808"
+    },
+    {
+      "number": 3826,
+      "title": "Add FAQ entry about tab completion in prompts",
+      "merged_at": "2026-09-01T21:32:54Z",
+      "created_at": "2026-09-01T10:29:55Z",
+      "html_url": "https://github.com/pallets/click/pull/3826"
+    },
+    {
+      "number": 3805,
+      "title": "Fix `copy`, `deepcopy` and `pickle` of `Sentinel` members",
+      "merged_at": "2026-08-29T15:12:36Z",
+      "created_at": "2026-08-28T21:43:45Z",
+      "html_url": "https://github.com/pallets/click/pull/3805"
+    },
+    {
+      "number": 3817,
+      "title": "Remove unused bindings and constants from `_winconsole`",
+      "merged_at": "2026-08-31T13:24:59Z",
+      "created_at": "2026-08-31T08:56:37Z",
+      "html_url": "https://github.com/pallets/click/pull/3817"
+    },
+    {
+      "number": 3793,
+      "title": "Add `shtab` to third-party contrib list",
+      "merged_at": "2026-08-30T09:09:20Z",
+      "created_at": "2026-08-24T17:25:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3793"
+    },
     {
       "number": 3780,
       "title": "Add FAQ entry about `edit()` returning immediately",
@@ -71,83 +148,6 @@
       "merged_at": "2026-09-10T19:29:50Z",
       "created_at": "2026-09-10T08:59:16Z",
       "html_url": "https://github.com/pallets/click/pull/3861"
-    },
-    {
-      "number": 3800,
-      "title": "Merge main into stable",
-      "merged_at": "2026-08-27T04:07:04Z",
-      "created_at": "2026-08-27T04:05:38Z",
-      "html_url": "https://github.com/pallets/click/pull/3800"
-    },
-    {
-      "number": 3801,
-      "title": "Start 8.5.1.",
-      "merged_at": "2026-08-27T04:19:35Z",
-      "created_at": "2026-08-27T04:17:35Z",
-      "html_url": "https://github.com/pallets/click/pull/3801"
-    },
-    {
-      "number": 3858,
-      "title": "Make `click.Path` generic on `path_type`",
-      "merged_at": "2026-09-08T19:48:10Z",
-      "created_at": "2026-09-08T10:36:02Z",
-      "html_url": "https://github.com/pallets/click/pull/3858"
-    },
-    {
-      "number": 3787,
-      "title": "Release version 8.5.0",
-      "merged_at": "2026-08-25T01:48:49Z",
-      "created_at": "2026-08-22T04:32:35Z",
-      "html_url": "https://github.com/pallets/click/pull/3787"
-    },
-    {
-      "number": 3850,
-      "title": "Split out types tests.",
-      "merged_at": "2026-09-06T01:24:20Z",
-      "created_at": "2026-09-06T01:23:12Z",
-      "html_url": "https://github.com/pallets/click/pull/3850"
-    },
-    {
-      "number": 3781,
-      "title": "Add support of `pathlib.Path` to `edit`",
-      "merged_at": "2026-08-20T02:50:20Z",
-      "created_at": "2026-08-19T06:10:23Z",
-      "html_url": "https://github.com/pallets/click/pull/3781"
-    },
-    {
-      "number": 3778,
-      "title": "Add FAQ entry about `UnicodeEncodeError` on Windows",
-      "merged_at": "2026-08-20T16:12:11Z",
-      "created_at": "2026-08-19T04:44:52Z",
-      "html_url": "https://github.com/pallets/click/pull/3778"
-    },
-    {
-      "number": 3776,
-      "title": "Resolve the pager command once, in `_pager_contextmanager`",
-      "merged_at": "2026-08-18T16:24:13Z",
-      "created_at": "2026-08-18T07:19:56Z",
-      "html_url": "https://github.com/pallets/click/pull/3776"
-    },
-    {
-      "number": 3777,
-      "title": "Forward all user's parameters set in `PAGER` and improve flag detection",
-      "merged_at": "2026-08-19T15:20:27Z",
-      "created_at": "2026-08-18T08:12:35Z",
-      "html_url": "https://github.com/pallets/click/pull/3777"
-    },
-    {
-      "number": 3821,
-      "title": "Add `Option.get_help_spec` to extract the help's left part of an hidden option",
-      "merged_at": "2026-09-02T13:01:39Z",
-      "created_at": "2026-08-31T23:01:32Z",
-      "html_url": "https://github.com/pallets/click/pull/3821"
-    },
-    {
-      "number": 3829,
-      "title": "Add missing a reference for Windows and use the `kbd` role",
-      "merged_at": "2026-09-02T13:10:04Z",
-      "created_at": "2026-09-02T07:29:18Z",
-      "html_url": "https://github.com/pallets/click/pull/3829"
     }
   ]
 }
