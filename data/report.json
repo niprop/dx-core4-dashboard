@@ -1,55 +1,69 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-09-21T12:15:08.001804+00:00",
+  "generated_at": "2026-09-28T13:10:55.436586+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
-    "lead_time_for_changes_hours": 15.814027777777778,
+    "lead_time_for_changes_hours": 16.286388888888887,
     "lead_time_rating": "Elite",
-    "deployment_frequency_per_week": 16.038193618982177,
+    "deployment_frequency_per_week": 17.1116328694641,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 3.4,
+    "change_failure_rate_pct": 2.8,
     "change_failure_rate_rating": "Elite",
     "mttr_hours": 8067.580833333333,
     "mttr_rating": "Low",
     "sample_size": {
-      "merged_prs": 300,
-      "completed_workflow_runs": 59,
+      "merged_prs": 302,
+      "completed_workflow_runs": 71,
       "incidents": 53
     }
   },
   "core4": {
     "speed": {
-      "median_cycle_time_hours": 15.814027777777778,
-      "pr_throughput_per_week": 0.5099129333783576
+      "median_cycle_time_hours": 16.286388888888887,
+      "pr_throughput_per_week": 0.5119370270279406
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 16.038193618982177
+      "deployment_frequency_per_week": 17.1116328694641
     },
     "quality": {
-      "change_failure_rate_pct": 3.4,
+      "change_failure_rate_pct": 2.8,
       "revert_rate_pct": 0.0
     },
     "impact": {
-      "pct_prs_linked_to_issue": 47.0,
+      "pct_prs_linked_to_issue": 46.7,
       "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
     }
   },
   "ai_impact": {
     "ai_assisted_pr_count": 0,
-    "non_ai_pr_count": 300,
+    "non_ai_pr_count": 302,
     "pct_prs_ai_assisted": 0.0,
     "median_cycle_time_hours_ai_assisted": null,
-    "median_cycle_time_hours_non_ai": 15.814027777777778,
+    "median_cycle_time_hours_non_ai": 16.286388888888887,
     "cycle_time_delta_pct": null,
     "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
   },
   "recent_prs": [
     {
-      "number": 3820,
-      "title": "Document calling a command as a regular function",
-      "merged_at": "2026-09-02T00:20:14Z",
-      "created_at": "2026-08-31T21:06:24Z",
-      "html_url": "https://github.com/pallets/click/pull/3820"
+      "number": 3865,
+      "title": "Fix short help abbreviation",
+      "merged_at": "2026-09-12T02:35:08Z",
+      "created_at": "2026-09-11T06:25:50Z",
+      "html_url": "https://github.com/pallets/click/pull/3865"
+    },
+    {
+      "number": 3861,
+      "title": "Move common `help` argument from `Option` and `Argument` to `Parameter`",
+      "merged_at": "2026-09-10T19:29:50Z",
+      "created_at": "2026-09-10T08:59:16Z",
+      "html_url": "https://github.com/pallets/click/pull/3861"
+    },
+    {
+      "number": 3851,
+      "title": "Stable",
+      "merged_at": "2026-09-06T01:28:42Z",
+      "created_at": "2026-09-06T01:24:59Z",
+      "html_url": "https://github.com/pallets/click/pull/3851"
     },
     {
       "number": 3829,
@@ -57,6 +71,41 @@
       "merged_at": "2026-09-02T13:10:04Z",
       "created_at": "2026-09-02T07:29:18Z",
       "html_url": "https://github.com/pallets/click/pull/3829"
+    },
+    {
+      "number": 3866,
+      "title": "Deprecate parameter names that are: not a Python identifier, or a Python Keyword, or not lower-cased",
+      "merged_at": "2026-09-23T04:07:18Z",
+      "created_at": "2026-09-11T13:26:10Z",
+      "html_url": "https://github.com/pallets/click/pull/3866"
+    },
+    {
+      "number": 3850,
+      "title": "Split out types tests.",
+      "merged_at": "2026-09-06T01:24:20Z",
+      "created_at": "2026-09-06T01:23:12Z",
+      "html_url": "https://github.com/pallets/click/pull/3850"
+    },
+    {
+      "number": 3860,
+      "title": "Always list all positional arguments",
+      "merged_at": "2026-09-21T18:31:00Z",
+      "created_at": "2026-09-09T09:31:22Z",
+      "html_url": "https://github.com/pallets/click/pull/3860"
+    },
+    {
+      "number": 3876,
+      "title": "Merge stable into main",
+      "merged_at": "2026-09-21T18:54:48Z",
+      "created_at": "2026-09-21T18:52:27Z",
+      "html_url": "https://github.com/pallets/click/pull/3876"
+    },
+    {
+      "number": 3820,
+      "title": "Document calling a command as a regular function",
+      "merged_at": "2026-09-02T00:20:14Z",
+      "created_at": "2026-08-31T21:06:24Z",
+      "html_url": "https://github.com/pallets/click/pull/3820"
     },
     {
       "number": 3821,
@@ -99,55 +148,6 @@
       "merged_at": "2026-09-01T21:32:54Z",
       "created_at": "2026-09-01T10:29:55Z",
       "html_url": "https://github.com/pallets/click/pull/3826"
-    },
-    {
-      "number": 3805,
-      "title": "Fix `copy`, `deepcopy` and `pickle` of `Sentinel` members",
-      "merged_at": "2026-08-29T15:12:36Z",
-      "created_at": "2026-08-28T21:43:45Z",
-      "html_url": "https://github.com/pallets/click/pull/3805"
-    },
-    {
-      "number": 3817,
-      "title": "Remove unused bindings and constants from `_winconsole`",
-      "merged_at": "2026-08-31T13:24:59Z",
-      "created_at": "2026-08-31T08:56:37Z",
-      "html_url": "https://github.com/pallets/click/pull/3817"
-    },
-    {
-      "number": 3793,
-      "title": "Add `shtab` to third-party contrib list",
-      "merged_at": "2026-08-30T09:09:20Z",
-      "created_at": "2026-08-24T17:25:10Z",
-      "html_url": "https://github.com/pallets/click/pull/3793"
-    },
-    {
-      "number": 3780,
-      "title": "Add FAQ entry about `edit()` returning immediately",
-      "merged_at": "2026-08-29T04:45:56Z",
-      "created_at": "2026-08-19T05:38:02Z",
-      "html_url": "https://github.com/pallets/click/pull/3780"
-    },
-    {
-      "number": 3865,
-      "title": "Fix short help abbreviation",
-      "merged_at": "2026-09-12T02:35:08Z",
-      "created_at": "2026-09-11T06:25:50Z",
-      "html_url": "https://github.com/pallets/click/pull/3865"
-    },
-    {
-      "number": 3851,
-      "title": "Stable",
-      "merged_at": "2026-09-06T01:28:42Z",
-      "created_at": "2026-09-06T01:24:59Z",
-      "html_url": "https://github.com/pallets/click/pull/3851"
-    },
-    {
-      "number": 3861,
-      "title": "Move common `help` argument from `Option` and `Argument` to `Parameter`",
-      "merged_at": "2026-09-10T19:29:50Z",
-      "created_at": "2026-09-10T08:59:16Z",
-      "html_url": "https://github.com/pallets/click/pull/3861"
     }
   ]
 }
