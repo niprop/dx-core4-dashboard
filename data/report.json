@@ -1,19 +1,19 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-10-12T14:41:55.404666+00:00",
+  "generated_at": "2026-10-19T12:26:39.800402+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
     "lead_time_for_changes_hours": 16.286388888888887,
     "lead_time_rating": "Elite",
-    "deployment_frequency_per_week": 16.52967219429845,
+    "deployment_frequency_per_week": 16.155405892221815,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 2.1,
+    "change_failure_rate_pct": 1.8,
     "change_failure_rate_rating": "Elite",
     "mttr_hours": 8067.580833333333,
     "mttr_rating": "Low",
     "sample_size": {
       "merged_prs": 300,
-      "completed_workflow_runs": 97,
+      "completed_workflow_runs": 111,
       "incidents": 53
     }
   },
@@ -23,10 +23,10 @@
       "pr_throughput_per_week": 0.506864794184902
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 16.52967219429845
+      "deployment_frequency_per_week": 16.155405892221815
     },
     "quality": {
-      "change_failure_rate_pct": 2.1,
+      "change_failure_rate_pct": 1.8,
       "revert_rate_pct": 0.0
     },
     "impact": {
