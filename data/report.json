@@ -1,36 +1,36 @@
 {
   "repo": "pallets/click",
-  "generated_at": "2026-10-26T12:26:24.765275+00:00",
+  "generated_at": "2026-11-02T14:59:21.863883+00:00",
   "methodology": "DORA four keys + a DX Core 4-inspired Speed/Effectiveness/Quality/Impact breakdown, computed from public GitHub PR, Actions, and Issues data. Independent, unaffiliated reimplementation for portfolio/demo purposes.",
   "dora": {
-    "lead_time_for_changes_hours": 16.286388888888887,
+    "lead_time_for_changes_hours": 17.25375,
     "lead_time_rating": "Elite",
-    "deployment_frequency_per_week": 15.912685150374102,
+    "deployment_frequency_per_week": 15.290185884974116,
     "deployment_frequency_rating": "Elite",
-    "change_failure_rate_pct": 1.6,
+    "change_failure_rate_pct": 0.0,
     "change_failure_rate_rating": "Elite",
     "mttr_hours": 8067.580833333333,
     "mttr_rating": "Low",
     "sample_size": {
       "merged_prs": 300,
-      "completed_workflow_runs": 123,
+      "completed_workflow_runs": 125,
       "incidents": 53
     }
   },
   "core4": {
     "speed": {
-      "median_cycle_time_hours": 16.286388888888887,
-      "pr_throughput_per_week": 0.506864794184902
+      "median_cycle_time_hours": 17.25375,
+      "pr_throughput_per_week": 0.5037190087462877
     },
     "effectiveness": {
-      "deployment_frequency_per_week": 15.912685150374102
+      "deployment_frequency_per_week": 15.290185884974116
     },
     "quality": {
-      "change_failure_rate_pct": 1.6,
+      "change_failure_rate_pct": 0.0,
       "revert_rate_pct": 0.0
     },
     "impact": {
-      "pct_prs_linked_to_issue": 47.0,
+      "pct_prs_linked_to_issue": 47.3,
       "note": "Proxy metric -- real Impact scoring needs planning-tool data (Jira/Linear), not just Git."
     }
   },
@@ -39,11 +39,25 @@
     "non_ai_pr_count": 300,
     "pct_prs_ai_assisted": 0.0,
     "median_cycle_time_hours_ai_assisted": null,
-    "median_cycle_time_hours_non_ai": 16.286388888888887,
+    "median_cycle_time_hours_non_ai": 17.25375,
     "cycle_time_delta_pct": null,
     "note": "Positive delta = AI-flagged PRs took longer to merge; negative = faster. Detection is keyword/label-based and will miss undisclosed AI usage."
   },
   "recent_prs": [
+    {
+      "number": 3899,
+      "title": "Additional round-trip tests for `unstyle()`",
+      "merged_at": "2026-11-01T17:57:56Z",
+      "created_at": "2026-10-29T09:41:41Z",
+      "html_url": "https://github.com/pallets/click/pull/3899"
+    },
+    {
+      "number": 3900,
+      "title": "Document `less` interruption behavior",
+      "merged_at": "2026-10-30T20:59:14Z",
+      "created_at": "2026-10-29T11:00:29Z",
+      "html_url": "https://github.com/pallets/click/pull/3900"
+    },
     {
       "number": 3884,
       "title": "Fix `show_envvar` output for a sequence or an empty `envvar`",
@@ -134,20 +148,6 @@
       "merged_at": "2026-09-02T13:01:39Z",
       "created_at": "2026-08-31T23:01:32Z",
       "html_url": "https://github.com/pallets/click/pull/3821"
-    },
-    {
-      "number": 3818,
-      "title": "Fix race condition on `KeyboardInterrupt` in `Command.main()`",
-      "merged_at": "2026-08-31T23:42:24Z",
-      "created_at": "2026-08-31T15:12:47Z",
-      "html_url": "https://github.com/pallets/click/pull/3818"
-    },
-    {
-      "number": 3819,
-      "title": "Document completion of path in shells",
-      "merged_at": "2026-08-31T23:39:08Z",
-      "created_at": "2026-08-31T20:01:49Z",
-      "html_url": "https://github.com/pallets/click/pull/3819"
     }
   ]
 }
